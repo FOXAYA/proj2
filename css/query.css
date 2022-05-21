@@ -1,0 +1,153 @@
+/*******small screens*************/
+@media (max-width: 576px) {
+  .header{
+   position: relative;
+   min-height: 190px;
+  }
+  .navbar-nav{
+     width: 499px;
+     margin-left: -30px;
+      overflow: hidden;
+      background:rgb(230, 228, 226);
+      text-align: center;
+  }
+  .navbar-nav  li{
+    padding: 10px;
+        margin: 0;
+     font-size: 12px;
+  }
+  .navbar-brand img{
+     display:none;
+     visibility: hidden;
+  }
+  .navbar-toggler-icon::before{
+      content: url('/images/logo.png');
+      position: absolute;
+      left: 20%;
+      top: 5%;
+}
+  .custom-toggler.navbar-toggler {
+   border:2px solid rgb(0, 0, 0);
+   padding: 2px;
+ }
+ .custom-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+   #navbarSupportedContent{
+    position: relative;
+
+    margin-top: 50px;
+  }
+  /***************testmonial**********/
+  .testimonial span.quotes-down {
+    position: absolute;
+     width: 60px;
+     bottom: -50px;
+    height: 40px;
+    background: url("/images/icons.png") no-repeat -232px -6px;
+    right:40px
+  }
+  .twiter{margin-top: 50px;  }
+
+  .contact-us{
+     height: 190vh;
+     margin-top: 70px;}
+  .contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .contact-title p{
+    color: rgba(0, 0, 0, 0.568);
+     font-weight: bolder;
+     font-size: 17px;
+     text-align: center;
+     line-height: 1.8;
+  }
+  .contact-deatails{
+     display: flex;
+     flex-direction: column;
+     margin-top: 40px;
+    align-items: center;
+  }
+     .bold {
+          font-size: 17px;
+    }
+    .contact-right .social-icons{
+      padding: 0;
+      margin-left: 0;
+     }
+
+    .contact-right .lasticons{
+         font-size: 30px;
+         justify-content: center;
+         padding: 5px 10px 5px 10px;
+         display: flex;
+         margin-left: 15px;
+     }
+
+  form{
+     margin-top: 20px;
+  }
+ form .second-submit{
+    width: 70%;
+    margin-right: 50px;
+    display: block;
+    padding: 20px;
+    position: relative;
+    top:-30px;
+    right: 50px;
+
+  }
+  /******************footer***********************/
+
+  .footer-nav{
+  display: none;
+  }
+  .footer-nav .active>.nav-link{
+     color:rgb(0, 0, 0);
+     text-transform: uppercase;
+   }
+   .footer-nav li{
+   margin-top: 90px;
+    padding: 10px;
+  }
+  .copy-writer{
+   margin-top: 50px;
+   font-size: 11px;
+   text-align: left;
+
+   }
+
+  .copy-writer a{
+  display: block;
+  text-align: center;
+  font-size: larger;
+  }
+    /******************gallery two****************************/
+    .gallery-two{
+      padding: 0 !important;
+      margin: 0 !important;
+     }
+      .gallery-two .container-fluid , .row .col-md-6{
+        padding: 0;
+      }
+      .gallery-two .container-fluid .row #gallery{
+        margin: 0;
+        padding: 0;
+      }
+    #special-bg{
+        background-color: #afac9c;
+
+    }#typedtext{
+      background-color: #afac9c;
+      font-family: 'Waiting for the Sunrise', cursive;
+      font-size:18px;
+      margin: 10px 50px;
+      letter-spacing: 6px;
+      font-weight: bold;
+    }
+ .col-edit{
+  width: 400px;
+ }
+}
